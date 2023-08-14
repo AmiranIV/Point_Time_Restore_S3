@@ -6,3 +6,6 @@ myobject: This is the key (or filename) of the object that needs to be restored.
 
 Example of execution : 
 python point_in_time_restore.py mybucket myobject 2023-05-01T13:45:00.000Z
+
+#Don't forget to preform aws configure
+#Requirements : boto3, sys, time
